@@ -23,7 +23,7 @@ function App() {
   return (
     <>
       <Form moviesearch={getMovie} />
-      <MovieDisplay />
+      <MovieDisplay movie={movie} />
     </>
   );
 }
