@@ -1,5 +1,13 @@
+import MovieDisplay from "./components/MovieDisplay";
+import Form from "./components/Form";
+
 function App() {
-  return <></>;
+  return (
+    <>
+      <Form />
+      <MovieDisplay />
+    </>
+  );
 }
 
 export default App;
